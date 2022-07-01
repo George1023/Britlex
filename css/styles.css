@@ -60,3 +60,49 @@ body {
   line-height: 1.67;
   color: var(--main-dark-color);
 }
+
+.current {
+  color: var(--current-color);
+}
+
+/* Header */
+
+.header {
+  background-color: var(--main-light-color);
+  display: flex;
+}
+
+.site-logo {
+  line-height: 1.5;
+  font-size: 36px;
+
+  color: var(--main-dark-color);
+}
+
+.site-nav {
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+}
+
+.nav-link {
+  font-weight: var(--medium-font);
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}
+
+.header-button {
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  font-size: 24px;
+  line-height: 1.5;
+  padding: 17px 57px;
+
+  color: var(--main-dark-color);
+  background-color: var(--main-light-color);
+}
